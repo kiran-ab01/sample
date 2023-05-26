@@ -5,13 +5,9 @@ on:
     branches:
       - main
 
- 
-
 jobs:
   create_branch:
     runs-on: ubuntu-latest
-
- 
 
     steps:
       - name: Checkout repository
@@ -23,5 +19,3 @@ jobs:
           git config --local user.name "GitHub Actions"
           git checkout -b feature
           git push origin feature
-
-has context menu
